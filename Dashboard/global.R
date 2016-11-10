@@ -15,7 +15,11 @@ library(tagcloud)
 library(feather)
 options(shiny.reactlog=TRUE)
 
-setwd("Dashboard/Data")
+# set the working directory
+# if you are using shiny-server use this
+setwd("data")
+# if you are running the program from R use
+#setwd("Dashboard/data")
 
 info <- readr::read_csv("sentimiento.csv") %>% dplyr::select(-one_of(c("idioma"))) %>% 
         dplyr::mutate(fecha_dia = as.POSIXct(as.character(trunc(fecha,"days")))) %>% 
@@ -69,4 +73,3 @@ colnames(timeseries)[str_detect(colnames(timeseries), "get")] <- paste0(colnames
 lough_index_monthly_SI <- info %>% group_by(yearmonth = (str_sub(fecha_dia, 1, 7))) %>% summarise(lough_index = mean(lough))
 timeseries2 <- left_join(timeseries, lough_index_monthly_SI)
 info_axis <- read.csv("info_axis.csv")
-write_csv(timeseries2,"timeseries.csv")
