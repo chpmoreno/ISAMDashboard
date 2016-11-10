@@ -15,7 +15,7 @@ library(tagcloud)
 library(feather)
 options(shiny.reactlog=TRUE)
 
-setwd("Data")
+setwd("Dashboard/Data")
 
 info <- readr::read_csv("sentimiento.csv") %>% dplyr::select(-one_of(c("idioma"))) %>% 
         dplyr::mutate(fecha_dia = as.POSIXct(as.character(trunc(fecha,"days")))) %>% 
