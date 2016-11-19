@@ -1,9 +1,5 @@
 # Sentiment Analysis of Colombian Financial Markets and Economy Analysts. 
 
-## Dashboard
-
-### Set up
-
 ## Introduction
 
 ## Data and Methodology
@@ -12,4 +8,4 @@
 
 ## Final Remarks
 
-
+## Next Steps
