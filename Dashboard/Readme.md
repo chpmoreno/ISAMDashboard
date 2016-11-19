@@ -4,7 +4,7 @@ The following are the minimum requirements <sup>1</sup> for setting up this dash
 
 ---
 
-**Create an AWS instance (follow the images for each step)**.
+###Create an AWS instance (follow the images for each step).
 
   - Step 0: Launch a new instance.
   
@@ -50,9 +50,9 @@ The following are the minimum requirements <sup>1</sup> for setting up this dash
 
 ---
 
-**R, R libraries and Shiny Server set up (using the terminal)**.
+###R, R libraries and Shiny Server set up (using the terminal).
 
-*AWS Ubuntu server*
+**AWS Ubuntu server**
 
   - Step 0: Update Ubuntu.
   
@@ -116,7 +116,7 @@ The following are the minimum requirements <sup>1</sup> for setting up this dash
     http://awsipaddress:3838/ISAMDashboard/Dashboard/ or http://localhost:3838/ISAMDashboard/Dashboard/
     ```
 
-*BGSE Ubuntu Image Version (in community AMIs search ami-0fdd6a7c)*.
+**BGSE Ubuntu Image Version (in community AMIs search ami-0fdd6a7c)**.
   
   - Step 0: Update Ubuntu and uninstall R.
   
@@ -183,6 +183,24 @@ The following are the minimum requirements <sup>1</sup> for setting up this dash
     ```
     http://awsipaddress:3838/ISAMDashboard/Dashboard/ or http://localhost:3838/ISAMDashboard/Dashboard/
     ```
+### Links.
+
+- http://shiny.rstudio.com/
+- http://rstudio.github.io/shinydashboard/index.html
+- https://www.rstudio.com/resources/webinars/shiny-developer-conference/
+- http://deanattali.com/
+- http://deanattali.com/blog/advanced-shiny-tips/
+- http://stackoverflow.com/tags/shiny/topusers
+- https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
+- http://stackoverflow.com/questions/28794261/rstudio-shiny-error-there-is-no-package-called-shinydashboard/32996405#32996405
+- http://rstudio.github.io/shiny-server/os/latest/
+- https://support.rstudio.com/hc/en-us/sections/203091177-Shiny-Server
+- http://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
+- https://www.r-bloggers.com/deploying-your-very-own-shiny-server/
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-shiny-server-on-ubuntu-14-04
+- https://www.rstudio.com/products/shiny/shiny-server/
+- https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/
+- https://www.r-bloggers.com/deploying-shiny-server-on-amazon-some-troubleshoots-and-solutions/
 
   ---
 *Footnotes*
