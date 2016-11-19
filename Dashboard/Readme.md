@@ -1,6 +1,6 @@
 ## Dashboard Set up
 
-The following are the minimum requirements^1^ for setting up this dashboard using Shiny Server on Ubuntu Amazon Web Services (AWS)^2^ (you can also apply this procedure for your localhost).
+The following are the minimum requirements[^1] for setting up this dashboard using Shiny Server on Ubuntu Amazon Web Services (AWS)[^2] (you can also apply this procedure for your localhost).
 
 *Create an AWS instance (follow the images for each step)*.
 
