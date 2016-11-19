@@ -1,2 +1,15 @@
-# ISAMDashboard
-Shiny Dashboard for Sentiment Analysis of Colombian Economy and Financial Market Analysts.
+# Sentiment Analysis of Colombian Financial Markets and Economy Analysts. 
+
+## Dashboard
+
+### Set up
+
+## Introduction
+
+## Data and Methodology
+
+## Principal Results
+
+## Final Remarks
+
+
