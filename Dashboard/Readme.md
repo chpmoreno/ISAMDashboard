@@ -1,16 +1,49 @@
 ## Dashboard Set up
 
-The following are the minimum requirements[^1] for setting up this dashboard using Shiny Server on Ubuntu Amazon Web Services (AWS)[^2] (you can also apply this procedure for your localhost).
+The following are the minimum requirements <sup>1</sup> for setting up this dashboard using Shiny Server on Ubuntu Amazon Web Services (AWS)<sup>2</sup> (you can also apply this procedure for your localhost).
 
 *Create an AWS instance (follow the images for each step)*.
 
   - Step 0: Launch a new instance.
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_001.png" width="650"/>
+    </p>
+
   - Step 1: Search and select an Ubuntu image.
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_002.png" width="650"/>
+    </p>
+    
   - Step 2: Choose an instance type (there is one free tier).
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_003.png" width="650"/>
+    </p>
+  
   - Step 3: Configure instance details (mantain the default settings).
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_004.png" width="650"/>
+    </p>
+    
   - Step 4: Add Storage (mantain the default settings)
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_005.png" width="650"/>
+    </p>
+    
   - Step 5: Tag instance (p.e. BGSEDSDashboard)
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_006.png" width="650"/>
+    </p>
   - Step 6: Configure Security Group (follow the picture below. The most importante rule is highlighted due to the fact that it is the default port for shiny server.) and Review and Launch. 
+  
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/chpmoreno/ISAMDashboard/master/Dashboard/www/Readme_png/launch_instance_007.png" width="650"/>
+    </p>
+    
   - Step 7: They are going to ask for an access key, if you don't have one then create it (http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html)
 
 *Configuration of Ubuntu Instance and Shiny Server (using the terminal)*.
